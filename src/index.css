@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(106, 187, 103);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.navlink{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.navline{
+    color: white;
+}
+h1.title{
+    text-align: center;
+    color: rgb(106, 187, 103);
+    margin-top: 10px;
+    
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-container li{
+    list-style: none;
+    position: relative;
+}
+
+.img-container li .icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+}
